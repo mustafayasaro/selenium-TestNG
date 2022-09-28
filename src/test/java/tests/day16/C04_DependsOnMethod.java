@@ -25,6 +25,8 @@ public class C04_DependsOnMethod extends TestBaseBeforeClassAfterClass {
     @Test(dependsOnMethods = "test2")
     public void test3() {
         // sonuc yazisinin amazon icerdiginiz test edin
+        //assert ! driver.findElement
+        //        (By.cssSelector("div[class=\"a-section a-spacing-small a-spacing-top-small\"]")).getText().contains("amazon");
         // Assert.assertFalse(sonuc.getText().contains("amazon"));
     }
 }
