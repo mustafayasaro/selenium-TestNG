@@ -1,8 +1,6 @@
-package tests.day16;
+package tests.day16_Priority_DependsOn;
 
-import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import utilities.TestBaseBeforeClassAfterClass;

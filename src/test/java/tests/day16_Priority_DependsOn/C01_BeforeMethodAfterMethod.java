@@ -1,4 +1,4 @@
-package tests.day16;
+package tests.day16_Priority_DependsOn;
 
 import org.testng.annotations.Test;
 import utilities.TestBaseBeforeMethodAfterMethod;
