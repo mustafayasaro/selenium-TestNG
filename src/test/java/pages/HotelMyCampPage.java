@@ -23,6 +23,11 @@ public class HotelMyCampPage {
     @FindBy(xpath = "//*[@id='btnSubmit']")
     public WebElement logIn2;
 
+    @FindBy(xpath = "//*[@class='username username-hide-on-mobile']")
+    public WebElement girisYapildi;
+
+    @FindBy(xpath = "//*[@id='divMessageResult']")
+    public WebElement girisYapilamadi;
 
 
 }
