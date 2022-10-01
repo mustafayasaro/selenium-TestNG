@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="istenen package'lari calistir">
+    <test name="package">
+        <packages>
+            <package name="tests.day18_Configuration.Properties"></package>
+        </packages>
+    </test>
+    <test name="baska test">
+        <classes>
+            <class name="tests.day19_SingletonPattern.C03_PositiveTest"></class>
+        </classes>
+    </test>
+</suite>
