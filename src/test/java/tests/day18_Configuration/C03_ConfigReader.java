@@ -1,4 +1,4 @@
-package tests.day18_Configuration.Properties;
+package tests.day18_Configuration;
 
 import org.junit.Assert;
 import org.testng.annotations.Test;

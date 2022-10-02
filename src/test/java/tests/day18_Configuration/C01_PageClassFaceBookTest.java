@@ -1,4 +1,4 @@
-package tests.day18_Configuration.Properties;
+package tests.day18_Configuration;
 
 import com.github.javafaker.Faker;
 import org.junit.Assert;
