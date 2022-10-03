@@ -2,7 +2,7 @@
 <suite name="istenen package'lari calistir">
     <test name="package">
         <packages>
-            <package name="tests.day18_Configuration.Properties"></package>
+            <package name="tests.day18_Configuration"></package>
         </packages>
     </test>
     <test name="baska test">
