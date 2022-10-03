@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import utilities.TestBaseBeforeMethodAfterMethod;
 
-public class C02_SoftAssert extends TestBaseBeforeMethodAfterMethod {
+public class C02_HardAssert extends TestBaseBeforeMethodAfterMethod {
     // Hard Assertions : JUNit'te öğrendiğimiz assertion ile aynıdır.
     // Assert.assertTrue();  Assert.assertFalse();  Assert.assertEquals();
     // Hard Assertions'da herhangi bir assertion failed olursa,
@@ -15,7 +15,7 @@ public class C02_SoftAssert extends TestBaseBeforeMethodAfterMethod {
 
     // Soft Assert : Kullanabilmek için obje oluştururuz, oluşturduktan sonra obje ismi ile kullanırız,
     // Herhangi bir hata verdiğinde test methodu
-    // çalışmaya devam eder, en sonra rapor verir.
+    // çalışmaya devam eder, en son rapor verir.
     // baslangıc  SoftAssert objeadı=new SoftAssert();  bitis objeadı.assertAll();
 
 

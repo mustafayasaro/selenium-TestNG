@@ -6,7 +6,7 @@ import utilities.Driver;
 public class C04_DriverIlkTest {
 
     /*
-    TesBase class'ina extends ederek kullandigimiz driver yerine
+    TestBase class'ina extends ederek kullandigimiz driver yerine
     artik Driver class'indan kullancagimiz static olan   getDriver()
     method'unu kullaniriz
     extends yaptigimizda sadece bir classi extends yapabiliriz

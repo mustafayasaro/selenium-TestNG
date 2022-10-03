@@ -1,6 +1,5 @@
 package tests.day17_SoftAssert;
 
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -8,7 +7,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import utilities.TestBaseBeforeClassAfterClass;
 
-public class C03_HardAssert extends TestBaseBeforeClassAfterClass {
+public class C03_SoftAssert extends TestBaseBeforeClassAfterClass {
 
     @Test
     public void test01() {

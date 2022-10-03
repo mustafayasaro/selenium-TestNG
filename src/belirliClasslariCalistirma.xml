@@ -24,7 +24,7 @@ File -> Save All
     <test name="classlar">
         <classes>
             <class name="tests.day16_Priority_DependsOn.C03_Priority"/>
-            <class name="tests.day17_SoftAssert.C02_SoftAssert"/>
+            <class name="tests.day17_SoftAssert.C02_HardAssert"/>
         </classes>
     </test>
 </suite>
