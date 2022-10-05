@@ -1,6 +1,10 @@
 package tests.day21;
 
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.devtools.v85.animation.model.KeyframeStyle;
 import org.testng.annotations.Test;
+import pages.AmazonPage;
+import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
@@ -16,5 +20,25 @@ public class C01_ScreenShotRusableMethod {
         ReusableMethods.getScreenshot("hepsburada");
         //sayfayi kapatiniz
         Driver.closeDriver();
+    }
+
+
+    @Test
+    public void test02() throws IOException {
+        //Amazon sayfasina gidiniz
+        Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
+        AmazonPage amazonPage = new AmazonPage();
+
+        //nutella arat8iniz
+        amazonPage.aramaKutusu.sendKeys("nutella", Keys.ENTER);
+
+        //arama sonuc yazisi Webelementinin resmini aliniz
+
+
+        ReusableMethods.getScreenshotWebElement("aramaSonuWE", amazonPage.aramaSonucElementi);
+
+        //Sayfayi kapatiniz
+        Driver.closeDriver();
+
     }
 }
