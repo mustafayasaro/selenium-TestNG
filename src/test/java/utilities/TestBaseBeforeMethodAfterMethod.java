@@ -18,7 +18,7 @@ public class TestBaseBeforeMethodAfterMethod {
     // @Before ve @After notasyonlari yerine
     // @BeforeMethod ve @AfterMethod ullanilir
     //Calisma prensibi ise JUnit'dekinotasyonlarla aynidir
-    @BeforeMethod
+    @BeforeMethod (groups = "gp1")
     public void setUp(){
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
@@ -30,7 +30,7 @@ public class TestBaseBeforeMethodAfterMethod {
     }
 
 
-    @AfterMethod
+    @AfterMethod (groups = "gp1")
     public void tearDown(){
         //driver.quit();
     }

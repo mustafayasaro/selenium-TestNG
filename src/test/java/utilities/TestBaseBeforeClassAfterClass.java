@@ -19,7 +19,7 @@ public class TestBaseBeforeClassAfterClass {
     // @BeforeClass @AfterClasss notasyonlarini kullanirken
     // TestNG de static yapmaya gerek yoktur
 
-    @BeforeClass
+    @BeforeClass(groups = "gp1")
     public  void setUp(){
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
@@ -33,7 +33,7 @@ public class TestBaseBeforeClassAfterClass {
     }
 
 
-    @AfterClass
+    @AfterClass(groups = "gp1")
     public  void tearDown(){
         //driver.quit();
     }
