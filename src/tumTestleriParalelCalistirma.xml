@@ -1,0 +1,19 @@
+<!--
+thread-count="3"     >> 3 tane browser ile calismasini istiyoruz
+parallel="classes"   >> classlarin paralel calismasini istiyoruz
+verbose="3"          >> ekstra bilgi vermesi icin kullaniriz
+ -->
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="tumCestleriCalistirma" verbose="3" parallel="classes" thread-count="3">
+    <test name="regression">
+        <packages>
+            <package name="tests.day19_SingletonPattern"/>
+        </packages>
+    </test>
+</suite>
+
+<!--
+TestNG'de .xml file ile paralel test yapmak istersek suite tag'indan sonra
+paralel tag'i ile kac browser'da calstirmak istersek thread-count tag'ini kullaniriz
+-->
